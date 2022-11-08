@@ -1,0 +1,5 @@
+! A filter that unblocks images under pxls.space/cors.
+! This is because sometimes, filters such as /pxls/* 
+! will cause certain images to not load. Adding this 
+! fixes that.
+@@||pxls.space^pxls.space/cors/*,$image
