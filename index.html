@@ -16,17 +16,21 @@
     </style>
   </head>
   <body>
-    <h1>pxls.space Bookmarks for the Indie Alliance</h1>
+    <h1>pxls.space Things for the Indie Alliance</h1>
     <ul>
       <li>
          <a href="javascript:let the=new URL(document.location);let x;let y;let scale;if(the.hostname=='pxls.space'){var options=the.hash.substr(1).split('&');options.forEach((option,index)=>{option=option.split('=');if(option[0]=='x'){x=option[1]}else if(option[0]=='y'){y=option[1]}else if(option[0]=='scale'){scale=option[1]}if((index==options.length-1)&&(x&&y&&scale)){navigator.clipboard.writeText('https://jbmagination.com/pxls/jump?x='+x+'&y='+y+'&scale='+scale);alert('URL copied to clipboard!')}})}else if((the.hostname+the.pathname).startsWith('jbmagination.com/pxls')){alert('Drag me to your bookmarks bar, then use me on pxls.space!')}else{alert('Use me on pxls.space!')}">
-          Pixel link creator
+          Pixel link creator bookmarklet
         </a>
       </li>
       <li>
         <a href="javascript:let the=new URL(document.location);let scale;if(the.hostname=='pxls.space'){var options=the.hash.substr(1).split('&');options.forEach((option,index)=>{option=option.split('=');if(option[0]=='scale'){scale=option[1]}if((index==options.length-1)&&(scale)){var x=prompt('Please type your X position');var y=prompt('Please type your Y position');window.location.hash='x='+x+'&y='+y+'&scale='+scale+'&template=https%3A%2F%2Fjbmagination.com%2Fpxls%2Ftemplate.png&tw=1902'}})}else if((the.hostname+the.pathname).startsWith('jbmagination.com/pxls')){alert('Drag me to your bookmarks bar, then use me on pxls.space!')}else{alert('Use me on pxls.space!')}">
-          Pixel jumper
+          Pixel jumper bookmarklet
         </a>
+      </li>
+      <li>
+        <a href="https://subscribe.adblockplus.org/?location=https://jbmagination.com/pxls/pxlscors.txt&title=pxls%20CORS%20image%20unblocker">pxls CORS image unblocker</a> [<a href="https://jbmagination.com/pxls/pxlscors.txt">Direct link</a>]
+      </li>
      </ul>
   </body>
 </html>
