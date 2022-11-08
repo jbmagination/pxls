@@ -19,4 +19,4 @@
 ! GitHub - jbmagination
 ! pxls.space - JBMagination
 ! 
-@@||pxls.space^pxls.space/cors/*,$image
+@@||pxls.space/cors/*$image,1p
