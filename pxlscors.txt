@@ -1,5 +1,22 @@
-! A filter that unblocks images under pxls.space/cors.
-! This is because sometimes, filters such as /pxls/* 
-! will cause certain images to not load. Adding this 
-! fixes that.
+[Adblock Plus 2.0]
+! Title: pxls CORS iamge unblocker
+! Version: 1
+! Last modified: 08 Nov 2022 03:08 UTC 
+! Expires: 4 days (update frequency)
+! Homepage: https://jbmagination.com/pxls
+!
+! This filter list currently only has one filter, meant to unblock CORS requests containing images on pxls.space.
+! This is because some filter lists may block URLs that could likely be used in template URLs - for example, /pxls/*.
+! However, some trackers also use /pxls/*, so this filter list is designed to be extremely careful to not unblock 
+! those.
+!
+! While tracking pixels can technically be abused with this filter list on (so your security on other websites may 
+! theoretically be at risk by using this), images were specifically unblocked so no other form of tracking could 
+! potentially be used.
+! 
+! If you find any issues, you can find me at:
+! Discord - JBMagination#5512
+! GitHub - jbmagination
+! pxls.space - JBMagination
+! 
 @@||pxls.space^pxls.space/cors/*,$image
