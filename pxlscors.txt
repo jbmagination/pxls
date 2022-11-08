@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Title: pxls CORS iamge unblocker
+! Title: pxls CORS image unblocker
 ! Version: 1
 ! Last modified: 08 Nov 2022 03:08 UTC 
 ! Expires: 4 days (update frequency)
